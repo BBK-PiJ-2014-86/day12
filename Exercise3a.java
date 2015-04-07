@@ -11,11 +11,11 @@ public class Exercise3a {
 		
 		for (int i =0; i<s.length();i++) {
 			if(s.charAt(i)== ' ') {
-					int track=1;
+					int track=1;// variable to track how many times we moved to the right
 					while (s.charAt(i+track)==' ') {
 						track++;
 					}
-					initArray[position] = s.charAt(i+1);
+					initArray[position] = s.charAt(i+track);
 					position ++;
 				
 			}
@@ -25,7 +25,7 @@ public class Exercise3a {
 	}
 	
 	
-	
+	/*
 	public static void main (String [] args) {
 		Exercise3 ex = new Exercise3 ();
 		ex.launch();
@@ -40,7 +40,7 @@ public class Exercise3a {
 		}
 		
 	}
-	
+	*/
 
 
 }
