@@ -23,7 +23,7 @@ public class Exercise3 {
 		return initArray;
 	}
 	
-	/*
+	
 	
 	public static void main (String [] args) {
 		Exercise3 ex = new Exercise3 ();
@@ -32,7 +32,7 @@ public class Exercise3 {
 
 	private void launch() {
 		
-		char[] array = getInitials("Bob Dylan");
+		char[] array = getInitials("Bob  Dylan");
 		
 		for(char c : array) {
 			if(Character.isLetter(c)) System.out.print(c+ " ");
@@ -40,6 +40,6 @@ public class Exercise3 {
 		
 	}
 	
-	*/
+
 
 }
