@@ -17,7 +17,7 @@ public class GetInitialsTest {
 		String s = initialsArray[0]+""+""+initialsArray[1];
 
 		assertEquals(s, "SS");
-		
+
 		
 	}
 
